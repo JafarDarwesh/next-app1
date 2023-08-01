@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 
-function Post({ post={"id":0,"title":"",body:""}}) {
+function Post({ post={"id":0,"title":"",body:""}}) {//?
   const router = useRouter()
 
 
